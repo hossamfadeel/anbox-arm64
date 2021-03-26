@@ -102,8 +102,10 @@ We recommend Ubuntu 18.04 (bionic) with **GCC 7.x** as your build environment.
 Afterwards you can build Anbox with
 
 ```
-$ git clone https://github.com/anbox/anbox.git
-$ cd anbox
+## Modified By Hossam to build the correct version for anbox-arm64
+
+$ git clone https://github.com/hossamfadeel/anbox-arm64.git
+$ cd anbox-arm64
 $ mkdir build
 $ cd build
 $ cmake ..
